@@ -274,11 +274,11 @@ class Controller:
     def show_about(self, event):
         event.Skip()
         about_info = wx.adv.AboutDialogInfo()
-        about_info.SetName("Type App")
-        about_info.SetVersion("V1.0")
-        about_info.SetDescription("An automatically typing GUI.\n ")
-        about_info.SetWebSite("https://github.com/Tony607/TypeApp", "GitHub")
-        about_info.SetDevelopers(["Chengwei"])
+        about_info.SetName("")
+        about_info.SetVersion("")
+        about_info.SetDescription("")
+        about_info.SetWebSite("", "")
+        about_info.SetDevelopers([""])
         wx.adv.AboutBox(about_info)
 
     def type_command(self, evt):
